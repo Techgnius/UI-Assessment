@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+.app {
+  display: flex;
+  width: 100%;
+  color: rgb(4, 34, 61);
+  background-color: rgb(248, 245, 245);
+}
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  left: 0;
+  height: 100vh;
+  background-color: #fff;
+  border-radius: 25px;
+}
+.profile-pic {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.profile-pic label {
+  font-size: 23px;
+  font-weight: bold;
+}
+.profile-pic img {
+  border-radius: 50%;
+  border: 3px solid rgb(4, 34, 61);
+}
+span {
+  color: rgb(150, 148, 148);
+}
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.nav-links i {
+  font-size: 20px;
+}
+.logout-btn i {
+  font-size: 20px;
+}
+
+.booking-page {
+  width: 100%;
+}
+.booking-container {
+  width: 100%;
+}
+.top-section {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 25px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 23px;
+}
+.search_container {
+  position: relative;
+  border-radius: 4px;
+}
+
+.search_container .bx {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translate(-5%, -50%);
+}
+
+.search_container input {
+  width: 400px;
+  outline: none;
+  max-width: 100%;
+  padding: 6px 12px 6px 45px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1.1rem;
+  box-shadow: 1px 3px 6px #0000004d;
+}
+.notification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.notification p {
+  padding-right: 14px;
+}
+.notify {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  z-index: 99;
+  font-size: 30px;
+}
+.badge {
+  position: absolute;
+  display: flex;
+  font-size: 12px;
+  background-color: rgb(250, 62, 62);
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  right: -0.5rem;
+  top: -0.7rem;
+}
+.trip-details {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 35px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 34px;
+}
+.trip-detail i {
+  font-size: 20px;
+}
+.trip-detail select {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+}
+.line {
+  width: 2px;
+  min-height: 80px;
+  background-color: rgb(4, 34, 61);
+}
+.homescreen {
+  background: url(./image/homescreen-img.jpg);
+  width: 90%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+  margin: auto;
+  position: relative;
+  border-radius: 15px;
+}
+.packages-container {
+  padding: 20px;
+}
+.locations h1 {
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+.locationCard-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.locationCard {
+  display: flex;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-right: 15px;
+  justify-content: space-between;
+}
+.locationCard img {
+  border-radius: 15px;
+  height: 100px;
+  padding-right: 10px;
+  transition: 0.5s ease;
+}
+.locationCard img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.locationCard p {
+  font-size: 13px;
+}
+.locationCard-container i {
+  font-size: 13px;
+}
+.location-details span {
+  font-size: 20px;
+  color: rgb(4, 34, 61);
+}
+.offer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.offer-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.offer-card img {
+  border-radius: 15px;
+  height: 210px;
+  transition: 0.5s ease;
+}
+.offer-card img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.offer-card p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+.price i {
+  border: 1px solid rgb(4, 34, 61);
+  border-radius: 50%;
+  padding: 8px;
+}
+.price span {
+  color: rgb(4, 34, 61);
+}
