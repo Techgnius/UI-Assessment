@@ -32,7 +32,7 @@
   align-items: center;
 }
 .profile-pic label {
-  font-size: 23px;
+  font-size: 19px;
   font-weight: bold;
 }
 .profile-pic img {
@@ -48,10 +48,10 @@ span {
   gap: 16px;
 }
 .nav-links i {
-  font-size: 20px;
+  font-size: 17px;
 }
 .logout-btn i {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .booking-page {
@@ -90,7 +90,7 @@ span {
   padding: 6px 12px 6px 45px;
   border-radius: 4px;
   border: 1px solid #ccc;
-  font-size: 1.1rem;
+  font-size: 12px;
   box-shadow: 1px 3px 6px #0000004d;
 }
 .notification {
@@ -106,7 +106,7 @@ span {
   display: flex;
   cursor: pointer;
   z-index: 99;
-  font-size: 30px;
+  font-size: 24px;
 }
 .badge {
   position: absolute;
@@ -134,11 +134,11 @@ span {
   padding: 34px;
 }
 .trip-detail i {
-  font-size: 20px;
+  font-size: 14px;
 }
 .trip-detail select {
   padding: 15px;
-  font-size: 20px;
+  font-size: 14px;
   border: none;
 }
 .line {
@@ -162,7 +162,7 @@ span {
   padding: 20px;
 }
 .locations h1 {
-  font-size: 35px;
+  font-size: 25px;
   letter-spacing: 1px;
   font-weight: lighter;
 }
@@ -189,7 +189,7 @@ span {
   cursor: pointer;
   transform: scale(1.1);
 }
-.locationCard p {
+.location-details p {
   font-size: 13px;
 }
 .location-name {
@@ -199,7 +199,7 @@ span {
   font-size: 13px;
 }
 .location-details span {
-  font-size: 20px;
+  font-size: 14px;
   color: rgb(4, 34, 61);
 }
 .offer-container {
@@ -225,8 +225,11 @@ span {
   cursor: pointer;
 }
 .offer-card p {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: bold;
+}
+.offer-card i {
+  font-size: 14px;
 }
 .price {
   display: flex;
