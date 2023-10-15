@@ -1,5 +1,5 @@
 import React from "react";
-import Indialocation from "../image/india.jpg";
+import Indialocation from "../image/India.jpg";
 import Uklocation from "../image/France.jpg";
 import Francelocation from "../image/United Kingdom.jpg";
 import Offer1 from "../image/luxury1.jpg";
