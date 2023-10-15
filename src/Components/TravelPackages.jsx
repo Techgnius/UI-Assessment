@@ -17,7 +17,7 @@ const TravelPackages = () => {
             <div className="locationCard">
               <img src={Indialocation} alt="location 1" width={170} />
               <div className="location-details">
-                <p>Bangladesh, India</p>
+                <p className="location-name">Bangladesh, India</p>
                 <p>Visiting the best tourist areas chosen be the audience</p>
                 <span>$440,000</span>
               </div>
@@ -26,7 +26,7 @@ const TravelPackages = () => {
             <div className="locationCard">
               <img src={Uklocation} alt="location 1" width={170} />
               <div className="location-details">
-                <p>London, United Kingdom</p>
+                <p className="location-name">London, United Kingdom</p>
                 <p>London is one of the most beautiful places to visit</p>
                 <span>$500,000</span>
               </div>
@@ -35,7 +35,7 @@ const TravelPackages = () => {
             <div className="locationCard">
               <img src={Americanlocation} alt="location 1" width={170} />
               <div className="location-details">
-                <p>New York, U.S.A</p>
+                <p className="location-name">New York, U.S.A</p>
                 <p>
                   One of our best tourist attractions. Get ready to get value
                   for your money by experiencing unbelievable things.
@@ -48,7 +48,7 @@ const TravelPackages = () => {
           <h1>Best Offers</h1>
           <div className="offer-container">
             <div className="offer-card">
-              <img src={Offer1} alt="luxury" width={220} />
+              <img src={Offer1} alt="luxury" width={230} />
               <p>7Seasons Apartment</p>
               <i class="fa-solid fa-location-dot">Lekki/Lagos</i>
               <div className="price">
@@ -57,7 +57,7 @@ const TravelPackages = () => {
               </div>
             </div>
             <div className="offer-card">
-              <img src={Offer2} alt="luxury" width={220} />
+              <img src={Offer2} alt="luxury" width={230} />
               <p>7Seasons Apartment</p>
               <i class="fa-solid fa-location-dot"> Lekki/Lagos</i>
               <div className="price">
@@ -66,7 +66,7 @@ const TravelPackages = () => {
               </div>
             </div>
             <div className="offer-card">
-              <img src={Offer3} alt="luxury" width={220} />
+              <img src={Offer3} alt="luxury" width={230} />
               <p>7Seasons Apartment</p>
               <i class="fa-solid fa-location-dot"> Lekki/Lagos</i>
               <div className="price">
@@ -75,7 +75,7 @@ const TravelPackages = () => {
               </div>
             </div>
             <div className="offer-card">
-              <img src={Offer4} alt="luxury" width={220} />
+              <img src={Offer4} alt="luxury" width={230} />
               <p>7Seasons Apartment</p>
               <i class="fa-solid fa-location-dot"> Lekki/Lagos</i>
               <div className="price">

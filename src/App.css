@@ -20,6 +20,7 @@
   align-items: center;
   padding: 50px;
   left: 0;
+  width: 150px;
   height: 100vh;
   background-color: #fff;
   border-radius: 25px;
@@ -191,6 +192,9 @@ span {
 .locationCard p {
   font-size: 13px;
 }
+.location-name {
+  font-weight: bold;
+}
 .locationCard-container i {
   font-size: 13px;
 }
@@ -207,7 +211,7 @@ span {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 24px;
+  padding: 25px;
   border-radius: 15px;
   background-color: #fff;
 }
