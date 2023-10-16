@@ -20,7 +20,7 @@
   align-items: center;
   padding: 50px;
   left: 0;
-  width: 120px;
+  width: 15%;
   height: 100vh;
   background-color: #fff;
   border-radius: 25px;
@@ -154,6 +154,9 @@ span {
   font-size: 14px;
   border: none;
 }
+.trip-detail select:hover {
+  cursor: pointer;
+}
 .line {
   width: 2px;
   min-height: 80px;
@@ -161,7 +164,7 @@ span {
 }
 .homescreen {
   background: url(./image/homescreen-img.jpg);
-  width: 90%;
+  width: 85%;
   height: 200px;
   background-position: center;
   background-size: cover;
