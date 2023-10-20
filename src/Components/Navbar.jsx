@@ -9,8 +9,11 @@ const Navbar = () => {
           <label>
             Chinedu<span>Booking</span>
           </label>
-          <img src={ProfileImage} alt="profile-img" width={100} />
-          Chinedu Nwachukwu
+          <div className="profile-img-section">
+            <img src={ProfileImage} alt="profile-img" width={100} />
+            <i class="bx bx-edit"></i>
+          </div>
+          <p>Chinedu Nwachukwu</p>
         </div>
         <div className="nav-links">
           <i className="bx bxs-home-alt-2 dashboard"> Dashboard</i>

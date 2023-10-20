@@ -4,7 +4,7 @@ import TravelPackages from "./TravelPackages";
 
 const Body = () => {
   return (
-    <div>
+    <div className="body-container">
       <Homescreen />
       <TravelPackages />
     </div>
